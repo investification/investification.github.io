@@ -742,6 +742,11 @@ p {
 .ts-title {
 }
 
+.ts-title h4 {
+  font-weight: normal;
+  opacity: 0.75;
+}
+
 .ts-title h5 {
   font-weight: normal;
   opacity: 0.5;
