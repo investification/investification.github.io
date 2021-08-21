@@ -2,261 +2,933 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Investify">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>Investify | Investing Made Simple</title>
-
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="$0 commission, fractional stock brokerage. Create your own ETF and automate your investment.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-	<meta name="author" content="Investify">
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-
-	<!-- PLUGINS CSS STYLE -->
-	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-	<link rel="stylesheet" href="plugins/slick/slick.css">
-	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
-	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-	<link rel="stylesheet" href="plugins/aos/aos.css">
-
-	<!-- CUSTOM CSS -->
-	<link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
+    <meta name="description"
+        content="$0 commission, fractional stock brokerage. Create your own index fund and automate your investment.">
+    <link rel="stylesheet" href="css/css-bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/css-fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/css-style.css">
+    <link rel="stylesheet" href="css/css-owl.carousel.min.css">
+    <title>Investify | Investing Made Simple</title>
 
 </head>
 
-<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll"
+    data-bg-parallax-speed="3">
+    <div class="ts-page-wrapper" id="page-top">
+        <!--*********************************************************************************************************-->
+        <!--************ HERO ***************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <header id="ts-hero" class="ts-full-screen">
 
+            <!--NAVIGATION ******************************************************************************************-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#1a1360">
+                <div class="container">
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="images/logo_light.png" alt="Investify Logo" style="height: 25px">
+                    </a>
+                    <!--end navbar-brand-->
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                    <!--end navbar-toggler-->
+                    <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+                    <div class="ml-auto d-flex">
+                        <!-- <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span
+                                    class="sr-only">(current)</span></a> -->
+                        <a class="nav-item nav-link ts-scroll text-white" href="#how-it-works">How It Works</a>
+                        <!-- <a class="nav-item nav-link ts-scroll" href="#what-is-appstorm">About</a>
+                            <a class="nav-item nav-link ts-scroll" href="#pricing">Pricing</a>
+                            <a class="nav-item nav-link ts-scroll" href="#our-clients">Our Clients</a>
+                            <a class="nav-item nav-link ts-scroll" href="#gallery">Galley</a>
+                            <a class="nav-item nav-link ts-scroll" href="#form-contact">Contact</a> -->
+                        <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto"
+                            href="https://forms.gle/YHNT8psM37HbsF1VA">Get Early Access</a>
+                    </div>
+                    <!--end navbar-nav-->
+                    <!-- </div> -->
+                    <!--end collapse-->
+                </div>
+                <!--end container-->
+            </nav>
+            <!--end navbar-->
 
-	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
-		<div class="container">
-			<a class="navbar-brand" href="index copy.html"><img src="images/logo.png" alt="logo"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="ti-menu"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item @@howitworks">
-						<a class="nav-link" href="#howitworks">How It Works</a>
-					</li>
-					<li class="nav-item @@joinwaitlist">
-						<a target="_blank" class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe8TQnuMB9wKLc5Du29sClVFQBSBqkcbBrBVQLT_KTzG8m9aQ/viewform?usp=sf_link">Get Early Access</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+            <!--HERO CONTENT ****************************************************************************************-->
+            <div class="container align-self-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-7">
+                        <!-- <h3 class="ts-opacity__50">zero-effort, zero-commissions!</h3> -->
+                        <h1>Passive Investing Made Simple</h1>
+                        <a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Learn More</a>
+                    </div>
+                    <!--end col-sm-7 col-md-7-->
+                    <div class="col-sm-5 d-none d-sm-block">
+                        <!-- <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1"> -->
+                        <img src="images/performance.png" style="max-height: 600px"
+                            class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
+                        <!-- <img src="images/img-img-phone-2nd-screen.png"
+                                class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""> -->
+                        <!-- </div> -->
+                    </div>
+                    <!--end col-sm-5 col-md-5 col-xl-5-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
 
-	<!--====================================
-=            Hero Section            =
-=====================================-->
-	<section class="section gradient-banner">
-		<div class="shapes-container">
-			<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-			<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-			<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-			<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-			<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-			<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-			<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-			<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-		</div>
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-sm-6 order-1 order-md-1 text-center text-md-left">
-					<h1 class="text-white font-weight-bold mb-4">Investing Made Easy</h1>
-					<p class="text-white mb-5">Zero-Commission, Fractional Shares, with Automation tools.</p>
-					<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe8TQnuMB9wKLc5Du29sClVFQBSBqkcbBrBVQLT_KTzG8m9aQ/viewform?usp=sf_link" class="btn btn-main-md">Get Early Access</a>
-				</div>
-				<div class="col-sm-4 text-right order-2 order-sm-2 ">
-					<img class="img-fluid" src="images/mobile.png" alt="screenshot">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====  End of Hero Section  ====-->
+            <div id="ts-dynamic-waves" class="ts-background" data-bg-color="#1a1462">
+                <svg class="ts-svg ts-parallax-element" width="100%" height="100%" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <path class="ts-dynamic-wave" d="" data-wave-color="#dd4b5b" data-wave-height=".6"
+                        data-wave-bones="4" data-wave-speed="0.15"></path>
+                </svg>
+                <svg class="ts-svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <path class="ts-dynamic-wave" d="" data-wave-color="#fff" data-wave-height=".2" data-wave-bones="6"
+                        data-wave-speed="0.2"></path>
+                </svg>
+            </div>
 
+        </header>
+        <!--end #hero-->
 
-	<!--==================================
-=            Feature Grid            =
-===================================-->
-	<section class="feature section pt-0">
-		<div class="container" id="howitworks">
-			<div class="row">
-				<div class="col-md-5 ml-auto justify-content-center">
-					<!-- Feature Mockup -->
-					<div class="image-content" data-aos="fade-right">
-						<img class="img-fluid" src="images/comms.png" alt="iphone">
-					</div>
-				</div>
-				<div class="col-md-6 mr-auto align-self-center">
-					<div class="feature-content">
-						<!-- Feature Title -->
-						<h2 class="font-weight-bold">Zero-Commission Trades</h2>
-						<!-- Feature Description -->
-						<p class="desc">$0 commission fee for US stocks for all our early adopters. Sign up now to be an early
-							user!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+        <!--*********************************************************************************************************-->
+        <!--************ CONTENT ************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <main id="ts-content">
 
+            <!--HOW IT WORKS ****************************************************************************************-->
+            <section id="how-it-works" class="ts-block text-center">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Our Building Blocks</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="images/index.svg" alt="Automated Index" style="height: 70px"
+                                        class="mt-2 mb-2">
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Automated Tools</h4>
+                                <p>
+                                    Create a portfolio of stocks easily and automate your monthly investment by setting
+                                    it up once and for all.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="images/zero.svg" alt="Zero commission" style="height: 70px"
+                                        class="mt-2 mb-2">
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Zero Commission</h4>
+                                <p>
+                                    $0 commission fee for all US stocks. Forever.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-3 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="images/companies.png" alt="Fractional shares" class="mb-2 mt-2">
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Fractional Shares</h4>
+                                <p>
+                                    Allocate any amount from your recurring investment into your favorite stocks,
+                                    starting from 1 USD.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END HOW IT WORKS ************************************************************************************-->
 
-	<section class="feature section pt-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 ml-auto align-self-center">
-					<div class="feature-content">
-						<!-- Feature Title -->
-						<h2 class="font-weight-bold">Fractional Shares Trading</h2>
-						<!-- Feature Description -->
-						<p>Can't afford your favorite stocks? Invest and own fractions of them! Buy your favorite shares starting from USD1. </p>
-					</div>
-				</div>
-				<div class="col-md-5 mr-auto justify-content-center">
-					<!-- Feature mockup -->
-					<div class="image-content" data-aos="fade-left">
-						<img class="img-fluid" src="images/companies.png" alt="ipad">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            <!--PARTNERS ********************************************************************************************-->
+            <!-- <section id="partners" class="py-5 ts-block" data-bg-color="#f6f6f6">
+                <div class="container">
+                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners ">
+                        <a href="#">
+                            <img src="images/img-logo-01.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/img-logo-02.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/img-logo-03.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/img-logo-04.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/img-logo-05.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section> -->
+            <!--END PARTNERS ****************************************************************************************-->
 
-	<section class="feature section pt-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 ml-auto justify-content-center">
-					<!-- Feature Mockup -->
-					<div class="image-content" data-aos="fade-right">
-						<img class="img-fluid" src="images/phones.png" alt="iphone">
-					</div>
-				</div>
-				<div class="col-md-6 mr-auto align-self-center">
-					<div class="feature-content">
-						<!-- Feature Title -->
-						<h2 class="font-weight-bold">Create Your Own Index and Automate Your Regular Investment</h2>
-						<!-- Feature Description -->
-						<p class="desc">Create a portfolio of stocks easily and automate your monthly investment by setting it up once and for all. You can set
-							the amount and frequency of your desired
-							investment. Dollar-Cost Average your way into the future.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            <!--HOW IT LOOKS ****************************************************************************************-->
+            <section id="how-it-looks" class="pb-0 ts-block text-center ts-overflow__hidden ts-shape-mask__down"
+                data-bg-color="#ededed" data-bg-image="assets/img/bg-shapes-02.png" data-bg-repeat="no-repeat"
+                data-bg-position="bottom" data-bg-size="inherit">
+                <div class="container">
+                    <div class="ts-title mb-5">
+                        <h2>Getting Started</h2>
+                        <h5>in 3 simple steps, start automating your own personalised index fund, and never have to
+                            worry about investing again</h5>
+                    </div>
+                    <!--end ts-title-->
 
+                    <ul class="nav nav-tabs justify-content-center my-5" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab"
+                                aria-controls="desktop" aria-selected="true">
+                                <h4>1</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tablet-tab" data-toggle="tab" href="#tablet" role="tab"
+                                aria-controls="tablet" aria-selected="false">
+                                <h4>2</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab"
+                                aria-controls="mobile" aria-selected="false">
+                                <h4>3</h4>
+                            </a>
+                        </li>
+                    </ul>
 
-	<!--====  End of Feature Grid  ====-->
+                    <div class="tab-content ts-tabs-presentation" id="myTabContent" data-animate="ts-fadeInUp">
+                        <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop">
+                            <div class="ts-title mb-5">
+                                <h5>Create a portfolio with target investment amount and frequency.</h5>
+                            </div>
+                            <img src="images/create-chopped.png" style="max-width: 300px;" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="tablet" role="tabpanel" aria-labelledby="tablet">
+                            <div class="ts-title mb-5">
+                                <h5>Picks the assets to be included in the portfolio.</h5>
+                            </div>
+                            <img src="images/add-chopped.png" style="max-width: 300px;" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile">
+                            <div class="ts-title mb-5">
+                                <h5>Allocates amount for each asset.</h5>
+                            </div>
+                            <img src="images/distribute-chopped.png" style="max-width: 300px;" alt="">
+                        </div>
+                    </div>
 
+                </div>
+            </section>
+            <!--END HOW IT LOOKS ************************************************************************************-->
 
-	<!--=================================
-=            Testimonial            =
-==================================-->
-	<section class="section testimonial" id="testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<!-- Testimonial Slider -->
-					<div class="testimonial-slider owl-theme">
-						<!-- Testimonial 01 -->
-						<div class="item">
-							<div class="block shadow">
-								<!-- Speech -->
-								<p>
-									I love the fact that US stocks are Zero-Commission, and I can now buy fractions of my favorite shares
-									on a regular basis automatically! This really solves my pain point of having to dollar-cost
-									average manually. I can easily rebalance it after a few years too.
-									Can't wait for the actual launch.
-								</p>
-								<!-- Person Thumb -->
-								<!--<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image"> 
-							</div>-->
-								<!-- Name and Company -->
-								<cite>ZY Tan</cite>
-							</div>
-						</div>
-						<div class="item">
-							<div class="block shadow">
-								<!-- Speech -->
-								<p>
-									I'm into long term investing because I don't want to spend too much time on
-									researching and investing, and I also feel that most ETFs are overly diversified. 
-									Being able to customize what stocks to automatically invest into helps me solve my problem.
-								</p>
-								<!-- Person Thumb -->
-								<!--<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image">
-							</div>-->
-								<!-- Name and Company -->
-								<cite>J Wen</cite>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====  End of Testimonial  ====-->
+            <!--WHAT IS APPSTORM ************************************************************************************-->
+            <!-- <section id="what-is-appstorm" class="ts-block">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>What Is AppStorm?</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            <p>
+                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
+                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
+                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                            </p>
+                            <p>
+                                Nam tristique Sed nisl justo, commodo ac gravida vitae, sodales maximus erat. Phasellus
+                                euismod nunc metus, et posuere elit venenatis eget. Nunc non risus libero.
+                            </p>
+                            <a href="#download" class="btn btn-primary mb-4 ts-scroll">Download Now!</a>
+                        </div>
+                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s"
+                            data-offset="100">
+                            <div class="px-3">
+                                <img src="images/img-img-screen-desktop.jpg"
+                                    class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--END WHAT IS APPSTORM ********************************************************************************-->
 
-	<section class="call-to-action-app section bg-blue">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h2>We are in Beta</h2>
-					<p>Join the waitlist as we let early adopters in.</p>
-					<ul class="list-inline">
-						<li class="list-inline-item">
-							<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe8TQnuMB9wKLc5Du29sClVFQBSBqkcbBrBVQLT_KTzG8m9aQ/viewform?usp=sf_link"
-								class="btn btn-rounded-icon">
-								Get Early Access
-							</a>
-						</li>
+            <!--FEATURES ********************************************************************************************-->
+            <!-- <section id="features" class="ts-block" data-bg-image="assets/img/bg-shapes-03.png" data-bg-size="inherit"
+                data-bg-position="left" data-bg-repeat="no-repeat">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-xl-7 text-center">
+                            <div class="position-relative">
+                                <figure class="position-absolute text-center w-100 ts-z-index__1"
+                                    data-animate="ts-zoomInShort">
+                                    <img src="images/img-img-screen-small-01.jpg"
+                                        class="mw-100 d-inline-block ts-shadow__lg" alt="">
+                                </figure>
+                                <figure class="p-5" data-animate="ts-zoomInShort" data-delay="0.1s">
+                                    <img src="images/img-img-screen-desktop.jpg" class="mw-100 ts-shadow__lg" alt="">
+                                </figure>
+                                <figure class="position-absolute ts-bottom__0 ts-left__0 ts-z-index__2"
+                                    data-animate="ts-zoomInShort" data-delay="0.2s">
+                                    <img src="images/img-img-screen-small-02.jpg"
+                                        class="mw-100 d-inline-block ts-shadow__lg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            <div class="ts-title">
+                                <h2>Features</h2>
+                            </div>
+                            <p>
+                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
+                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue.
+                            </p>
+                            <ul class="list-unstyled ts-list-divided">
+                                <li>
+                                    <a href="#feature-1" class="ts-font-color__black" data-toggle="collapse"
+                                        role="button" aria-expanded="false" aria-controls="feature-1">
+                                        <h6 class="my-2">Real Time Statistics</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-1">
+                                        <p>
+                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
+                                            Suspendisse lobortis justo sed sapien placerat eleifend.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#feature-2" class="ts-font-color__black" data-toggle="collapse"
+                                        role="button" aria-expanded="false" aria-controls="feature-2">
+                                        <h6 class="my-2">Beautiful Charts</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-2">
+                                        <p>
+                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
+                                            Suspendisse lobortis justo sed sapien placerat eleifend.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#feature-3" class="ts-font-color__black" data-toggle="collapse"
+                                        role="button" aria-expanded="false" aria-controls="feature-3">
+                                        <h6 class="my-2">Activity Reminder</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-3">
+                                        <p>
+                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
+                                            Suspendisse lobortis justo sed sapien placerat eleifend.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--FEATURES ********************************************************************************************-->
 
-						</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+            <!--SUBSCRIBE *******************************************************************************************-->
+            <!-- <section id="subscribe" class="ts-block ts-separate-bg-element"
+                data-bg-image="assets/img/bg-pattern-dot.png" data-bg-size="inherit" data-bg-image-opacity=".1"
+                data-bg-repeat="repeat">
+                <div class="container">
+                    <h3>Subscribe For Crypto News!</h3>
+                    <form class="ts-form ts-form-email ts-labels-inside-input" data-php-path="assets/php/email.php">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="form-group mb-0">
+                                    <label for="email-subscribe">Email address</label>
+                                    <input type="email" class="form-control" id="email-subscribe"
+                                        aria-describedby="subscribe" name="email" placeholder="" required>
+                                    <small class="form-text mt-2 ts-opacity__50">*You&rsquo;ll get only relevant news
+                                        once a week</small>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section> -->
+            <!--END SUBSCRIBE ***************************************************************************************-->
 
+            <!--PRICING *********************************************************************************************-->
+            <!-- <section id="pricing" class="ts-block">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>Affordable Prices</h2>
+                    </div>
+                    <div class="row no-gutters ts-cards-same-height">
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp">
+                                <div class="card-header p-0">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#1b1464">Basic</h5>
+                                    <div class="ts-title py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">Free</h3>
+                                        <small class="ts-opacity__50">forever</small>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>3 Sport Activity</li>
+                                        <li>60 Days Track Record</li>
+                                        <li><s class="ts-opacity__50">Cloud Backup</s></li>
+                                        <li><s class="ts-opacity__50">Ads Removed</s></li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box ts-price-box__promoted" data-animate="ts-fadeInUp"
+                                data-delay="0.1s">
+                                <div class="card-header p-0" data-bg-color="#d96270">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#f26d7d">Premium</h5>
+                                    <div class="ts-title text-white py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">
+                                            <sup>$</sup>9,99
+                                        </h3>
+                                        <small class="ts-opacity__50">per month</small>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>3 Sport Activity</li>
+                                        <li>60 Days Track Record</li>
+                                        <li>Cloud Backup</li>
+                                        <li>Ads Removed</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-primary">Select Now</a>
+                                </div>
+                            </div>
+                        </div>
 
-	<!-- To Top -->
-	<div class="scroll-top-to">
-		<i class="ti-angle-up"></i>
-	</div>
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <div class="card-header p-0">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#1b1464">Premium</h5>
+                                    <div class="ts-title py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">
+                                            <sup>$</sup>19,99
+                                        </h3>
+                                        <small class="ts-opacity__50">per month</small>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>5 Sport Activity</li>
+                                        <li>Unlimited Days Track Record</li>
+                                        <li>Cloud Backup</li>
+                                        <li>Ads Removed</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--END PRICING *****************************************************************************************-->
 
-	<!-- JAVASCRIPTS -->
-	<script src="plugins/jquery/jquery.min.js"></script>
-	<script src="plugins/bootstrap/bootstrap.min.js"></script>
-	<script src="plugins/slick/slick.min.js"></script>
-	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-	<script src="plugins/aos/aos.js"></script>
-	<!-- google map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
-	<script src="plugins/google-map/gmap.js"></script>
+            <section id="our-clients" class="ts-block text-center">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Hear What People Say</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1"
+                                data-animate="ts-zoomInShort">
+                                <blockquote class="blockquote">
+                                    <!--person image-->
+                                    <figure style="margin-top: 70px">
+                                        <aside>
+                                            <i class="fa fa-quote-right"></i>
+                                        </aside>
+                                        <!-- <div class="ts-circle__lg" data-bg-image="assets/img/person-05.jpg"></div> -->
+                                    </figure>
+                                    <!--end person image-->
+                                    <!--cite-->
+                                    <p>
+                                        I love the fact that US stocks are Zero-Commission, and I can now buy fractions
+                                        of my favorite shares on a regular basis automatically! This really solves my
+                                        pain point of having to
+                                        dollar-cost average manually. I can easily rebalance it after a few years too.
+                                        Can't wait for the actual launch.
+                                    </p>
+                                    <!--end cite-->
+                                    <!--person name-->
+                                    <footer class="blockquote-footer">
+                                        <h4>ZY Tan</h4>
+                                        <!-- <h6>CEO at MarketsGuru</h6> -->
+                                    </footer>
+                                    <!--end person name-->
+                                </blockquote>
+                                <!--end blockquote-->
+                                <blockquote class="blockquote">
+                                    <!--person image-->
+                                    <figure style="margin-top: 70px">
+                                        <aside>
+                                            <i class="fa fa-quote-right"></i>
+                                        </aside>
+                                        <!-- <div class="ts-circle__lg" data-bg-image="assets/img/person-05.jpg"></div> -->
+                                    </figure>
+                                    <!--end person image-->
+                                    <!--cite-->
+                                    <p>
+                                        I'm into long term investing because I don't want to spend too much time on
+                                        researching and investing, and I also feel that most ETFs are overly
+                                        diversified.
+                                        Being able to customize what stocks to automatically invest into helps me solve
+                                        my problem.
+                                    </p>
+                                    <!--end cite-->
+                                    <!--person name-->
+                                    <footer class="blockquote-footer">
+                                        <h4>J Wen</h4>
+                                        <!-- <h6>CEO at MarketsGuru</h6> -->
+                                    </footer>
+                                    <!--end person name-->
+                                </blockquote>
+                                <!--end blockquote-->
+                            </div>
+                        </div>
+                    </div>
 
-	<script src="js/script.js"></script>
+                </div>
+            </section>
+            <!--end #our-clients.ts-block-->
+
+            <!-- <section id="gallery" class="ts-block ts-shape-mask__up" data-bg-color="#f7f7f7"
+                data-bg-image="assets/img/bg-shapes.png" data-bg-size="contain" data-bg-repeat="no-repeat">
+                <div class="ts-title text-center">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="owl-carousel ts-carousel-centered py-2 mb-5" data-owl-loop="1" data-owl-nav="1"
+                    data-owl-items="3" data-owl-margin="30" data-owl-center="1">
+                    <div class="slide">
+                        <img src="images/img-img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img-img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img-img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img-img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- <section id="organize" class="ts-block mt-5">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>Organize Everything!</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                            <figure class="text-right ts-lg-text-center" data-animate="ts-fadeInUp">
+                                <figure class="icon">
+                                    <img src="images/img-icon-watch-heart.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Invest With The Best</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                            <figure class="text-right ts-lg-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
+                                <figure class="icon">
+                                    <img src="images/img-icon-lcd-chart.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Real Time Price</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                            <figure class="text-right ts-lg-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
+                                <figure class="icon">
+                                    <img src="images/img-icon-cup-winner.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Trade From Enywhere</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-4 my-5 d-flex justify-content-center align-items-center">
+                            <div class="image position-relative">
+                                <img src="images/performance.png" style="max-height: 550px" class="mx-5" alt=""
+                                    data-animate="ts-zoomInShort" data-delay=".1s">
+                                <aside class="ts-svg ts-svg__organic-shape-01 ts-background-size-contain"
+                                    data-animate="ts-zoomInShort" data-delay=".4s"></aside>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <figure class="ts-lg-text-center" data-animate="ts-fadeInUp">
+                                <figure class="icon">
+                                    <img src="images/img-icon-watch-heart.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Invest With The Best</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                            <figure class="ts-lg-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
+                                <figure class="icon">
+                                    <img src="images/img-icon-lcd-chart.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Real Time Price</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                            <figure class="ts-lg-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
+                                <figure class="icon">
+                                    <img src="images/img-icon-cup-winner.png" class="" alt="">
+                                </figure>
+                                <h4 class="mb-2">Trade From Enywhere</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--end #organize-->
+
+            <!-- <section id="download">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="p-5 text-center ts-border-radius__round-shape ts-shadow__lg"
+                                data-bg-color="#1b1464">
+                                <div class="bg-white p-5 ts-border-radius__round-shape">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a href="#">
+                                                <img src="images/img-download-appstore.png" class="mw-100 py-3" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a href="#">
+                                                <img src="images/img-download-play.png" class="mw-100 py-3" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="position-absolute ts-top__0 ts-bottom__0 m-auto w-100 ts-z-index__-1">
+            </section> -->
+
+            <!--OUR TEAM ********************************************************************************************-->
+            <!-- <section id="our-team" class="ts-block">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Our Team</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="images/img-person-01.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Anita Matthews</h5>
+                                    <h6 class="ts-opacity__50">Company CEO</h6>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div class="ts-social-icons">
+                                        <a href="#">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".1s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="images/img-person-02.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Levi Masters</h5>
+                                    <h6 class="ts-opacity__50">Investment Specialist</h6>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div class="ts-social-icons">
+                                        <a href="#">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".2s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="images/img-person-03.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">John Doe</h5>
+                                    <h6 class="ts-opacity__50">Head Of Marketing</h6>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div class="ts-social-icons">
+                                        <a href="#">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".3s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="images/img-person-04.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Lisa Haley</h5>
+                                    <h6 class="ts-opacity__50">Customer Support</h6>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div class="ts-social-icons">
+                                        <a href="#">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--END OUR TEAM ****************************************************************************************-->
+
+            <!--NUMBERS *********************************************************************************************-->
+            <!-- <section id="numbers" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/pattern-topo.png"
+                data-bg-image-opacity=".05" data-bg-size="inherit" data-bg-repeat="repeat">
+                <div class="container">
+                    <div class="ts-promo-numbers">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="ts-promo-number text-center">
+                                    <h2 data-animate="ts-zoomIn">1,200+</h2>
+                                    <h3 class="mb-0 ts-opacity__50">Clients</h3>
+                                    <span class="ts-promo-number-divider"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="ts-promo-number text-center">
+                                    <h2 data-animate="ts-zoomIn" data-delay="0.2s">$3,15 M</h2>
+                                    <h3 class="mb-0 ts-opacity__50">Invested</h3>
+                                    <span class="ts-promo-number-divider"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="ts-promo-number text-center">
+                                    <h2 data-animate="ts-zoomIn" data-delay="0.2s">14%</h2>
+                                    <h3 class="mb-0 ts-opacity__50">Growth p.a.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--END NUMBERS *****************************************************************************************-->
+
+        </main>
+        <!--end #content-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <!-- <footer id="ts-footer">
+
+            <div class="map ts-height__600px" id="map"></div>
+
+            <section id="contact" class="ts-separate-bg-element" data-bg-image="assets/img/bg-desk.jpg"
+                data-bg-image-opacity=".1" data-bg-color="#1b1464">
+                <div class="container">
+                    <div class="ts-box mb-0 p-5 ts-mt__n-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Contact Us</h3>
+                                <address>
+                                    <figure>
+                                        2590 Rocky Road
+                                        Philadelphia, PA 19108
+                                    </figure>
+                                    <br>
+                                    <figure>
+                                        <div class="font-weight-bold">Email:</div>
+                                        <a href="#">office@example.com</a>
+                                    </figure>
+                                    <figure>
+                                        <div class="font-weight-bold">Phone:</div>
+                                        +1 215-606-0391
+                                    </figure>
+                                    <div class="font-weight-bold">Skype:</div>
+                                    crypto.agency
+                                </address>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Contact Form</h3>
+                                <form id="form-contact" method="post"
+                                    class="clearfix ts-form ts-form-email ts-inputs__transparent"
+                                    data-php-path="assets/php/email.php">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-name">Your Name *</label>
+                                                <input type="text" class="form-control" id="form-contact-name"
+                                                    name="name" placeholder="Your Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Your Email *</label>
+                                                <input type="email" class="form-control" id="form-contact-email"
+                                                    name="email" placeholder="Your Email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form-contact-message">Your Message *</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="5"
+                                                    name="message" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn btn-primary float-right"
+                                            id="form-contact-submit">Send a Message</button>
+                                    </div>
+                                    <div class="form-contact-status"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-white py-4">
+                        <small>&copy; 2018 ThemeStarz, All Rights Reserved</small>
+                    </div>
+                </div>
+            </section>
+
+        </footer> -->
+        <!--end #footer-->
+
+        <section id="subscribe" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-pattern-dot.png"
+            data-bg-size="inherit" data-bg-image-opacity=".1" data-bg-repeat="repeat">
+            <div class="container">
+                <h2 class="text-center">We are in Beta</h2>
+                <h4 class="font-weight-light text-center">Join the waitlist as we let early adopters in.</h4>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <a class="btn btn-primary w-100" href="https://forms.gle/YHNT8psM37HbsF1VA">Get Early Access</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!--end page-->
+
+    <script>
+        if (document.getElementsByClassName("ts-full-screen").length) {
+            document.getElementsByClassName("ts-full-screen")[0].style.height = window.innerHeight + "px";
+        }
+    </script>
+    <script src="js/js-jquery-3.3.1.min.js"></script>
+    <script src="js/js-popper.min.js"></script>
+    <script src="js/js-bootstrap.min.js"></script>
+    <script src="js/js-imagesloaded.pkgd.min.js"></script>
+    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script> -->
+    <script src="js/js-isInViewport.jquery.js"></script>
+    <script src="js/js-jquery.particleground.min.js"></script>
+    <script src="js/js-owl.carousel.min.js"></script>
+    <script src="js/js-scrolla.jquery.min.js"></script>
+    <script src="js/js-jquery.validate.min.js"></script>
+    <script src="js/js-jquery-validate.bootstrap-tooltip.min.js"></script>
+    <script src="js/1.20.4-TweenMax.min.js"></script>
+    <script src="js/js-jquery.wavify.js"></script>
+    <script src="js/js-custom.js"></script>
+
+    <!--Google map-->
+
+    <script>
+        var latitude = 34.038405;
+        var longitude = -117.946944;
+        var markerImage = "assets/img/map-marker.png";
+        var mapElement = "map";
+        var mapStyle = [{ "featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{ "color": "#444444" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "color": "#f2f2f2" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi", "elementType": "labels.text", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 45 }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "color": "#dbdbdb" }, { "visibility": "on" }] }];
+        google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapStyle, mapElement));
+    </script>
+
 </body>
 
 </html>
